@@ -47,3 +47,30 @@
   width: 100%;
   background-color: hsl(195deg, 20%, 86%);
 }
+
+@media only screen and (max-width: 420px) {
+  main {
+    background-color: lightblue;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .controlColumn {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    width: 100%; 
+  }
+  
+  .characterWrapper {
+    max-width: 100%;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    bottom: 5%;
+    min-height: 500px;
+  }
+
+}
